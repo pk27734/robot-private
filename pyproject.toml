@@ -8,6 +8,7 @@ dependencies = [
     "robotframework>=7.3",
     "robotframework-browser>=19.5.1",
     "robotframework-debuglibrary>=2.5.0",
+    "robotframework-jsonlibrary>=0.5",
     "robotframework-tidy>=4.17.0",
 ]
 
