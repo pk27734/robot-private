@@ -1,0 +1,13 @@
+# https://taskfile.dev
+version: "3"
+
+tasks:
+  venv:
+    desc: Init RF
+    cmds:
+      - uv run rfbrowser init
+
+  run:
+    desc: Run RF
+    cmds:
+      - uv run robot --outputdir robot_framework/results robot_framework/tests

@@ -1,0 +1,40 @@
+{"level":30,"time":"2025-06-06T08:20:48.546Z","pid":54971,"hostname":"mac.home","msg":"Listening on 127.0.0.1:61873"}
+(node:54971) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-06-06T08:20:49.600Z","pid":54971,"hostname":"mac.home","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-06-06T08:20:50.289Z","pid":54971,"hostname":"mac.home","msg":"Adding browser to stack: chromium, version: 136.0.7103.25"}
+{"level":30,"time":"2025-06-06T08:20:50.289Z","pid":54971,"hostname":"mac.home","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-06-06T08:20:50.289Z","pid":54971,"hostname":"mac.home","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-06-06T08:20:50.292Z","pid":54971,"hostname":"mac.home","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-06-06T08:20:50.293Z","pid":54971,"hostname":"mac.home","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-06-06T08:20:50.293Z","pid":54971,"hostname":"mac.home","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-06T08:20:50.293Z","pid":54971,"hostname":"mac.home","msg":"Trace file: "}
+{"level":30,"time":"2025-06-06T08:20:50.319Z","pid":54971,"hostname":"mac.home","msg":"Changed active context"}
+{"level":30,"time":"2025-06-06T08:20:50.319Z","pid":54971,"hostname":"mac.home","msg":"End of node method newContext"}
+{"level":30,"time":"2025-06-06T08:20:50.321Z","pid":54971,"hostname":"mac.home","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-06-06T08:20:50.321Z","pid":54971,"hostname":"mac.home","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-06T08:20:50.722Z","pid":54971,"hostname":"mac.home","msg":"Video path: undefined"}
+{"level":30,"time":"2025-06-06T08:20:50.722Z","pid":54971,"hostname":"mac.home","msg":"Changed active page"}
+{"level":30,"time":"2025-06-06T08:20:50.773Z","pid":54971,"hostname":"mac.home","msg":"End of node method newPage"}
+{"level":30,"time":"2025-06-06T08:20:50.775Z","pid":54971,"hostname":"mac.home","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-06-06T08:20:52.938Z","pid":54971,"hostname":"mac.home","msg":"End of node method goTo"}
+{"level":30,"time":"2025-06-06T08:21:21.859Z","pid":54971,"hostname":"mac.home","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-06T08:21:21.859Z","pid":54971,"hostname":"mac.home","msg":"Strict mode is enabled, find Locator with id=\"consent_prompt_submit\" in page."}
+{"level":30,"time":"2025-06-06T08:21:31.864Z","pid":54971,"hostname":"mac.home","msg":"Error of node method  click"}
+================= Original suppressed error =================
+locator.click: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('id="consent_prompt_submit"')[22m
+
+    at internalClick (/Users/Paul/Repos/pk27734/robot-private/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11893:19)
+    at async click (/Users/Paul/Repos/pk27734/robot-private/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11874:18)
+    at async PlaywrightServer.click (/Users/Paul/Repos/pk27734/robot-private/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13135:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2025-06-06T08:21:31.876Z","pid":54971,"hostname":"mac.home","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-06-06T08:21:31.876Z","pid":54971,"hostname":"mac.home","Take screenshot with options: ":{"path":"/Users/Paul/Repos/pk27734/robot-private/robot_framework/results/browser/screenshot/fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-06-06T08:21:32.354Z","pid":54971,"hostname":"mac.home","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-06-06T08:21:40.452Z","pid":54971,"hostname":"mac.home","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-06T08:21:40.452Z","pid":54971,"hostname":"mac.home","msg":"Strict mode is enabled, find Locator with //div[@id=\"consent_prompt_submit\"] in page."}
+{"level":30,"time":"2025-06-06T08:21:40.499Z","pid":54971,"hostname":"mac.home","msg":"End of node method click"}
